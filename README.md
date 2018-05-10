@@ -1,7 +1,7 @@
 # react-ui-layout
 React row/col layout components
 
-```js
+```jsx
 <Cols>
 	<Col size={200} align='right' padding={16}>
 		<div style={{backgroundColor: 'lightyellow', height: '100%'}}>A</div>
