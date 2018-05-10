@@ -1,0 +1,29 @@
+{
+  "name": "react-ui-layout",
+  "version": "1.0.0",
+  "description": "React row/col layout components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavex/react-ui-layout.git"
+  },
+  "keywords": [
+    "javascrip",
+    "react",
+    "component",
+    "ui",
+    "row",
+    "rows",
+    "col",
+    "cols"
+  ],
+  "author": "Pavel Macháček <pavex@ines.cz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pavex/react-ui-layout/issues"
+  },
+  "homepage": "https://github.com/pavex/react-ui-layout#readme"
+}

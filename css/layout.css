@@ -1,0 +1,17 @@
+.px-layout-cols-container,
+.px-layout-rows-container {
+	position:relative;
+	display:block;
+	width:100%;
+	height:100%;
+}
+.px-layout-cols-container >.px-layout-cols-content,
+.px-layout-col-container >.px-layout-col-content,
+.px-layout-rows-container >.px-layout-rows-content,
+.px-layout-row-container >.px-layout-row-content {
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}
