@@ -10,7 +10,7 @@ export default class Col extends Component {
 
 
 	static propTypes = {
-		size: PropTypes.number,
+		size: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 		stretch: PropTypes.bool,
 		style: PropTypes.object,
 		cellStyle: PropTypes.object,
