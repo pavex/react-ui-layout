@@ -1,12 +1,12 @@
 /**
- * @fileoverview Layout UI
+ * @fileoverview Layout helpers
  * @author Pavel Mach·Ëek <pavex@ines.cz>
  */
 import Cols from './src/Cols.js';
 import Col from './src/Col.js';
 import Rows from './src/Rows.js';
 import Row from './src/Row.js';
-import './css/layout.css';
+import './css/ui-layout.css';
 
 
 export {

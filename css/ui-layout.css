@@ -1,0 +1,36 @@
+.ui-layout__rows {
+	display:table;
+}
+.ui-layout__rows--stretch {
+	width:100%;
+	height:100%;
+}
+.ui-layout__row {
+	display:table-row;
+}
+.ui-layout__row--stretch {
+	height:100%;
+}
+.ui-layout__row >.ui-layout__row__container {
+	display:table-cell;
+	box-sizing:border-box;
+	text-align:left;
+}
+.ui-layout__cols {
+	display:table;
+}
+.ui-layout__cols--stretch {
+	width:100%;
+	height:100%;
+}
+.ui-layout__cols >.ui-layout__cols__container {
+	display:table-row;
+	text-align:left;
+}
+.ui-layout__col {
+	display:table-cell;
+	box-sizing:border-box;
+}
+.ui-layout__col--stretch {
+	width:100%;
+}
