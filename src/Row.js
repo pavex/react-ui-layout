@@ -12,6 +12,7 @@ export default class Row extends Component {
 	static propTypes = {
 		size: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 		stretch: PropTypes.bool,
+		className: PropTypes.string,
 		style: PropTypes.object,
 		cellStyle: PropTypes.object,
 		padding: PropTypes.oneOfType([PropTypes.bool, PropTypes.number, PropTypes.string]),
@@ -26,6 +27,7 @@ export default class Row extends Component {
 	static defaultProps = {
 		size: null,
 		stretch: false,
+		className: null,
 		style: null,
 		containerStyle: null,
 		padding: null,
@@ -49,11 +51,14 @@ export default class Row extends Component {
  * @return {string}
  */
 	_getCssClass() {
-		let {size, stretch} = this.props;
+		let {size, stretch, className} = this.props;
 		let classlist = [];
 		classlist.push(this._baseCssClass);
 		if (stretch && !size) {
 			classlist.push(this._baseCssClass + '--stretch');
+		}
+		if (className) {
+			classlist.push(className);
 		}
 		return classlist.join(' ');
 	};
