@@ -30,6 +30,7 @@
 .ui-layout__col {
 	display:table-cell;
 	box-sizing:border-box;
+	vertical-align:top;
 }
 .ui-layout__col--stretch {
 	width:100%;
